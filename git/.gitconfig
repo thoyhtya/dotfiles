@@ -1,11 +1,11 @@
 # vim: ts=4 sw=4
 
 [user]
-	name = "Joonas Tiala"
-	email = "joonas.tiala@gmail.com"
+	name = "Tuomas Höyhtyä"
+	email = "tuomas.hoyhtya@gmail.com"
 
 [github]
-	user = jtiala
+	user = thoyhtya
 
 [alias]
 	co = checkout
