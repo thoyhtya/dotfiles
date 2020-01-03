@@ -6,7 +6,6 @@
 * [Git][git]
 * [Vim][vim]
 * [tmux][tmux]
-* [fasd][fasd]
 
 ## Installation
 
@@ -34,7 +33,7 @@
 
 * Clone this repository to `~/.dotfiles`
 
-		git clone --recursive https://github.com/jtiala/dotfiles.git ~/.dotfiles
+		git clone --recursive https://github.com/thoyhtya/dotfiles.git ~/.dotfiles
 
 * Run install script
 
@@ -45,10 +44,9 @@
 
 * Install dependencies
 
-		sudo apt-get install software-properties-common dirmngr
-		sudo add-apt-repository ppa:aacebedo/fasd
-		sudo apt-get update
-		sudo apt-get install git zsh tmux fasd vim emacs
+		sudo apt install software-properties-common dirmngr
+		sudo apt update
+		sudo apt install git zsh tmux vim
 
 * Set ZSH as default shell
 
@@ -56,7 +54,7 @@
 
 * Clone this repository to `~/.dotfiles`
 
-		git clone --recursive https://github.com/jtiala/dotfiles.git ~/.dotfiles
+		git clone --recursive https://github.com/thoyhtya/dotfiles.git ~/.dotfiles
 
 * Run install script
 
@@ -72,5 +70,3 @@ Feel free to fork this repo and base your dotfiles on my setup. Be sure to chang
 [git]: https://git-scm.com
 [vim]: https://www.vim.org
 [tmux]: https://github.com/tmux/tmux/wiki
-[fasd]: https://github.com/clvv/fasd
-[homebrew]: https://brew.sh
