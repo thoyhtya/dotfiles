@@ -23,6 +23,8 @@ source $zsh_path/aliases.zsh
 
 export PATH=$HOME/bin:$PATH
 
+export MOTD="greetings, earthling"
+
 ## Custom aliases
 alias l="ls -lah"
 
@@ -31,3 +33,8 @@ alias l="ls -lah"
 grepc () {
 	grep --color "${1}\|" "${2}"
 }
+
+## Print some messages
+echo
+echo $MOTD
+
